@@ -1,0 +1,118 @@
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    padding: 0;
+    color: black;
+}
+
+
+
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    /* gap: 200px; */
+}
+
+.sec-1{
+width: 1200px;
+}
+
+.sec-2{
+    width: 325px;
+    margin: 0 auto;
+}
+
+.line-n{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.all-notes-buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+
+.all-notes-buttons li{
+    margin: 0 auto;
+}
+
+.buttons-all-notes{
+    height: 35px;
+    width: 250px;
+}
+
+.numbers{
+    margin-left: 19px;
+}
+
+.note{
+    width: 50px;
+    height: 50px;
+}
+.note:hover{
+    background-color: rgb(150, 190, 200) ;
+}
+
+.note.active{
+    background-color: rgb(135, 200, 200);
+}
+
+.buttons-all-notes.active,
+.gamma-notes.active {
+    background-color: rgb(135, 200, 160);
+}
+
+.line{
+    display: flex;
+    gap: 12.5px;
+}
+
+ .grif-number{
+    width: 50px;
+    text-align: center;
+ }
+
+.UL-gamma-notes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 385px;
+    margin: 0 auto;
+}
+
+.h3{
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+    width: 145px;
+}
+
+.gamma-notes{
+    width: 88px;
+}
+
+.clear{
+    width: 800px;
+    height: 40px;
+    margin-left: 20.5px;
+}
+
+.div-gamma-notes{
+    width: 460px;
+}
+
+.gamma-helper{
+    display: flex;
+}
+
+.HELL{
+    width: 360px;
+}
